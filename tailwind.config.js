@@ -10,6 +10,10 @@ module.exports = withMT({
   ],
   theme: {
     extend: {},
+    colors: {
+      primary: "#d65834",
+      bgColor: "#ffeee8",
+    },
   },
   plugins: [],
 });

@@ -6,12 +6,17 @@
   box-sizing: border-box;
 }
 
+nav p {
+  font-family: 'pacifico'
+}
+
 body {
   margin: 1rem 10rem;
   font-family: 'Roboto', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #ffeee8;
 }
 
 img {
