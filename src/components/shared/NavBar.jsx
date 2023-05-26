@@ -58,7 +58,7 @@ export default function Example() {
 
   return (
     <Navbar
-      data-aos="fade-left"
+      data-aos="flip-up"
       className="sticky inset-0 z-10 lg:w-[90vw] m-auto w-screen h-max max-w-full min-w-[350px] lg:rounded-xl rounded-none px-6 pb-6"
     >
       <div className="flex items-center justify-between text-blue-gray-900 drop-shadow-lg">

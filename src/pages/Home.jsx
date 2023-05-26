@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "../../public/png/logo.png";
 
 const Home = () => {
   return (
     <header className="flex flex-col justify-around gap-20 lg:gap-0 items-center lg:flex-row py-6 px-[5vw] w-screen h-fit">
       <div data-aos="fade-left" className="w-fit flex justify-center items-center">
-        <img className="max-w-[450px] drop-shadow-lg" src="/png/logo.png" alt="" />
+        <img className="max-w-[450px] drop-shadow-lg" src={logo} alt="Logo" />
       </div>
       <div
         data-aos="fade-right"
