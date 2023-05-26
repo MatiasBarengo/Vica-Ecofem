@@ -60,7 +60,7 @@ export default function Example() {
   return (
     <Navbar
       data-aos="fade-left"
-      className="sticky inset-0 z-10 lg:w-[90vw] w-screen h-max max-w-full min-w-[350px] lg:rounded-xl rounded-none px-6 pb-6 bg-gradient-to-l from-orange-200 via-white to-white border-primary"
+      className="sticky inset-0 z-10 lg:w-[90vw] m-auto w-screen h-max max-w-full min-w-[350px] lg:rounded-xl rounded-none px-6 pb-6"
     >
       <div className="flex items-center justify-between text-blue-gray-900 drop-shadow-lg">
         <Link to={"/"} className="flex items-center gap-4 text-4xl text-primary">

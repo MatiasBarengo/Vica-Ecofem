@@ -6,10 +6,6 @@
   box-sizing: border-box;
 }
 
-nav p {
-  font-family: 'pacifico'
-}
-
 body {
   margin: 1rem 10rem;
   font-family: 'Roboto', sans-serif;
@@ -47,4 +43,9 @@ button {
   border: none;
   font-family: inherit;
   cursor: pointer;
+}
+
+header h1,
+header div div h3 {
+  font-family: 'pacifico';
 }
