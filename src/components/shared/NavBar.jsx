@@ -2,7 +2,6 @@ import React from "react";
 import { Navbar, Typography, IconButton, Collapse } from "@material-tailwind/react";
 import { Link, useLocation } from "react-router-dom";
 import DropdownButton from "./DropdownButton";
-import logoNav from "/png/logoNav.png";
 
 export default function Example() {
   const [openNav, setOpenNav] = React.useState(false);
@@ -37,7 +36,7 @@ export default function Example() {
       </Typography>
       <Typography as="li" variant="small" color="blue-gray" className="p-1 font-normal">
         <Link
-          to={"/about-us"}
+          to={"/about"}
           className={`flex items-center justify-center hover:text-primary duration-200 ease text-lg hover:scale-110 ${
             location.pathname === "/about" && "text-primary"
           }`}
@@ -64,7 +63,7 @@ export default function Example() {
     >
       <div className="flex items-center justify-between text-blue-gray-900 drop-shadow-lg">
         <Link to={"/"} className="flex items-center gap-4 text-4xl text-primary">
-          <img src={logoNav} alt="logo" className="w-40" />
+          <img src="/png/logoNav.png" alt="logo" className="w-40" />
         </Link>
         <div className="flex items-center gap-4">
           <div className="mr-4 hidden lg:block">{navList}</div>

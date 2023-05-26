@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import "./App.css";
 import { Route, Routes } from "react-router";
 import Home from "./pages/Home";
@@ -6,6 +6,7 @@ import Navbar from "./components/shared/NavBar";
 import Products from "./pages/Products";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import About from "./pages/About";
 
 function App() {
   useEffect(() => {
@@ -18,6 +19,7 @@ function App() {
       <Routes>
         <Route path={"/"} element={<Home />} />
         <Route path={"/products"} element={<Products />} />
+        <Route path={"/about"} element={<About />} />
       </Routes>
     </>
   );
