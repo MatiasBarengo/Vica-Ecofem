@@ -8,11 +8,6 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <header className="flex flex-col justify-around gap-20 lg:gap-0 items-center lg:flex-row py-6 px-[5vw] w-screen h-fit">
-      <img
-        className=" hidden lg:inline-block absolute top-0 right-0 w-screen h-[90vh]"
-        src={headerImg}
-        alt="header-img"
-      />
       <div data-aos="fade-left" className="w-fit flex justify-center items-center">
         <img className="max-w-[450px] drop-shadow-lg" src={logoHeader} alt="" />
       </div>
